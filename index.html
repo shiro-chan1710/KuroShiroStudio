@@ -1,1 +1,112 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KuroShiro Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #fff0f6, #fdfcff);
+      color: #444;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: #ffe6f0;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      background: white;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ff6fae;
+      font-weight: bold;
+    }
+
+    .card {
+      max-width: 900px;
+      background: white;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(255,105,180,0.15);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌸 KuroShiro Studio 🌸</h1>
+    <p>Cute sakura-style emojis & art</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Gallery</a>
+    <a href="#">Emojis</a>
+    <a href="#">About</a>
+  </nav>
+
+  <div class="card">
+    <h2>Welcome 💗</h2>
+    <p>
+      Welcome to KuroShiro Studio!  
+      This is a cute pastel website for custom emojis and art.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Emoji Preview ✨</h2>
+    <div class="gallery">
+      <img src="image/emoji1.png" alt="emoji">
+      <img src="image/emoji2.png" alt="emoji">
+      <img src="image/emoji3.png" alt="emoji">
+    </div>
+    <p style="font-size:14px;color:#888;">
+      (Images will show after you upload them)
+    </p>
+  </div>
+
+  <footer>
+    © 2026 KuroShiro Studio
+  </footer>
+
+</body>
+</html>
