@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Emojis | KuroShiro Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <h1>😺 Custom Emojis</h1>
+  <p>Cute sakura & OC emojis</p>
+</header>
+
+<nav class="menu">
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="emojis.html">Emojis</a>
+  <a href="about.html">About</a>
+</nav>
+
+<main class="grid small">
+  <img src="images/emoji1.png">
+  <img src="images/emoji2.png">
+</main>
+
+<footer>© KuroShiro Studio</footer>
+
+</body>
+</html>
