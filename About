@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>About | KuroShiro Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <h1>🌸 About Me</h1>
+  <p>OC • Art • Anime</p>
+</header>
+
+<nav class="menu">
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="emojis.html">Emojis</a>
+  <a href="about.html">About</a>
+</nav>
+
+<main class="card">
+  <img src="images/oc.png" style="width:200px;border-radius:20px;">
+  <p>
+    Hi! I’m Sakura from <b>KuroShiro Studio</b> ☯️  
+    I love anime, cute art, emojis, and original characters.
+  </p>
+</main>
+
+<footer>© KuroShiro Studio</footer>
+
+</body>
+</html>
